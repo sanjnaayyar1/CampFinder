@@ -8,10 +8,22 @@
 import SwiftUI
 
 struct ProgramOptions: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+   
+        var body: some View {
+            NavigationStack{
+            Text("Find...")
+            
+            NavigationLink(destination: Remote()){Text("Remote/Virtual Opportunities")}
+                    .padding()
+            
+                NavigationLink(destination: InPerson ()){Text("In-Person Opportunities")}
+                    .padding()
+            
+            
+            NavigationLink(destination: Resources()){Text("More Learning Resources")}
+        }
     }
-}
+    }
 
 struct ProgramOptions_Previews: PreviewProvider {
     static var previews: some View {

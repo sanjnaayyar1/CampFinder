@@ -13,6 +13,9 @@
 		EEDD7E552A38BABE000BD240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDD7E542A38BABE000BD240 /* Preview Assets.xcassets */; };
 		F3F4515D2A38FCB600AEED3F /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4515C2A38FCB600AEED3F /* AboutUs.swift */; };
 		F3F4515F2A38FD2A00AEED3F /* ProgramOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4515E2A38FD2A00AEED3F /* ProgramOptions.swift */; };
+		F3F451612A3900FE00AEED3F /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F451602A3900FE00AEED3F /* Remote.swift */; };
+		F3F451632A39015700AEED3F /* InPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F451622A39015700AEED3F /* InPerson.swift */; };
+		F3F451652A3901A400AEED3F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F451642A3901A400AEED3F /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		EEDD7E542A38BABE000BD240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3F4515C2A38FCB600AEED3F /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		F3F4515E2A38FD2A00AEED3F /* ProgramOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramOptions.swift; sourceTree = "<group>"; };
+		F3F451602A3900FE00AEED3F /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		F3F451622A39015700AEED3F /* InPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InPerson.swift; sourceTree = "<group>"; };
+		F3F451642A3901A400AEED3F /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				EEDD7E4D2A38BABC000BD240 /* CampFinderApp.swift */,
 				EEDD7E4F2A38BABC000BD240 /* ContentView.swift */,
 				F3F4515E2A38FD2A00AEED3F /* ProgramOptions.swift */,
+				F3F451642A3901A400AEED3F /* Resources.swift */,
+				F3F451622A39015700AEED3F /* InPerson.swift */,
+				F3F451602A3900FE00AEED3F /* Remote.swift */,
 				F3F4515C2A38FCB600AEED3F /* AboutUs.swift */,
 				EEDD7E512A38BABE000BD240 /* Assets.xcassets */,
 				EEDD7E532A38BABE000BD240 /* Preview Content */,
@@ -144,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F4515D2A38FCB600AEED3F /* AboutUs.swift in Sources */,
+				F3F451612A3900FE00AEED3F /* Remote.swift in Sources */,
+				F3F451652A3901A400AEED3F /* Resources.swift in Sources */,
 				EEDD7E502A38BABC000BD240 /* ContentView.swift in Sources */,
+				F3F451632A39015700AEED3F /* InPerson.swift in Sources */,
 				EEDD7E4E2A38BABC000BD240 /* CampFinderApp.swift in Sources */,
 				F3F4515F2A38FD2A00AEED3F /* ProgramOptions.swift in Sources */,
 			);

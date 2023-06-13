@@ -64,10 +64,10 @@
 				EEDD7E4D2A38BABC000BD240 /* CampFinderApp.swift */,
 				EEDD7E4F2A38BABC000BD240 /* ContentView.swift */,
 				F3F4515E2A38FD2A00AEED3F /* ProgramOptions.swift */,
+				F3F4515C2A38FCB600AEED3F /* AboutUs.swift */,
 				F3F451642A3901A400AEED3F /* Resources.swift */,
 				F3F451622A39015700AEED3F /* InPerson.swift */,
 				F3F451602A3900FE00AEED3F /* Remote.swift */,
-				F3F4515C2A38FCB600AEED3F /* AboutUs.swift */,
 				EEDD7E512A38BABE000BD240 /* Assets.xcassets */,
 				EEDD7E532A38BABE000BD240 /* Preview Content */,
 			);

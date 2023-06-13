@@ -8,31 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        NavigationStack {
-            VStack {
+        NavigationStack{
+            VStack{
                 Text("Camp Finder")
                     .font(.largeTitle)
+                        .padding()
                 
                 Image("Logo")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
+                    .padding()
                 
-                NavigationLink(destination:AboutUs()) {Text("Get Started")}
+                NavigationLink(destination: ProgramOptions()){Text("Get Started")}
+                    .padding()
                 
-                NavigationLink(destination: ProgramOptions()){Text("About Us")
-                }
-                
-                
+                NavigationLink(destination:AboutUs()) {Text("About Us")}
                 
             }
-            .padding()
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

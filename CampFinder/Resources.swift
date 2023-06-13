@@ -13,6 +13,9 @@ struct Resources: View {
             VStack {
                
                 }
+            .padding()
+            .frame(maxWidth: .infinity , maxHeight: .infinity)
+            .background(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
             }
         }
             

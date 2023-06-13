@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hi, Team 3!")
+        NavigationStack {
+            VStack {
+                Text("Camp Finder")
+                    .font(.largeTitle)
+                
+                Image("Logo")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                
+                NavigationLink(destination:AboutUs()) {Text("Get Started")}
+                
+                NavigationLink(destination: ProgramOptions()){Text("About Us")
+                }
+                
+                
+                
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

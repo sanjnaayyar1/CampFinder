@@ -25,6 +25,7 @@ struct ProgramOptions: View {
                 
                 NavigationLink(destination: Resources()){Text("More Learning Resources")}
                     .foregroundColor(.black)
+                    .padding()
             }
             .padding()
             .frame(maxWidth: .infinity , maxHeight: .infinity)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE85196E2A3AE7F800A6C76D /* OurMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85196D2A3AE7F800A6C76D /* OurMission.swift */; };
+		EE8519702A3AE86500A6C76D /* OurMission2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85196F2A3AE86500A6C76D /* OurMission2.swift */; };
 		EEDD7E4E2A38BABC000BD240 /* CampFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD7E4D2A38BABC000BD240 /* CampFinderApp.swift */; };
 		EEDD7E502A38BABC000BD240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD7E4F2A38BABC000BD240 /* ContentView.swift */; };
 		EEDD7E522A38BABE000BD240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDD7E512A38BABE000BD240 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE85196D2A3AE7F800A6C76D /* OurMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMission.swift; sourceTree = "<group>"; };
+		EE85196F2A3AE86500A6C76D /* OurMission2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMission2.swift; sourceTree = "<group>"; };
 		EEDD7E4A2A38BABC000BD240 /* CampFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDD7E4D2A38BABC000BD240 /* CampFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampFinderApp.swift; sourceTree = "<group>"; };
 		EEDD7E4F2A38BABC000BD240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				F3F4515E2A38FD2A00AEED3F /* ProgramOptions.swift */,
 				F3F4515C2A38FCB600AEED3F /* AboutUs.swift */,
 				F3F451642A3901A400AEED3F /* Resources.swift */,
+				EE85196D2A3AE7F800A6C76D /* OurMission.swift */,
+				EE85196F2A3AE86500A6C76D /* OurMission2.swift */,
 				F3F451622A39015700AEED3F /* InPerson.swift */,
 				F3F451602A3900FE00AEED3F /* Remote.swift */,
 				EEDD7E512A38BABE000BD240 /* Assets.xcassets */,
@@ -153,8 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F4515D2A38FCB600AEED3F /* AboutUs.swift in Sources */,
+				EE8519702A3AE86500A6C76D /* OurMission2.swift in Sources */,
 				F3F451612A3900FE00AEED3F /* Remote.swift in Sources */,
 				F3F451652A3901A400AEED3F /* Resources.swift in Sources */,
+				EE85196E2A3AE7F800A6C76D /* OurMission.swift in Sources */,
 				EEDD7E502A38BABC000BD240 /* ContentView.swift in Sources */,
 				F3F451632A39015700AEED3F /* InPerson.swift in Sources */,
 				EEDD7E4E2A38BABC000BD240 /* CampFinderApp.swift in Sources */,

@@ -28,7 +28,7 @@ struct ProgramOptions: View {
                         
                 }
                 
-                NavigationLink(destination: Remote()){Text("Remote/Virtual Opportunities")}
+                NavigationLink(destination: Virtual()){Text("Remote/Virtual Opportunities")}
                     .padding()
                     .foregroundColor(.black)
                     .buttonStyle(.bordered)

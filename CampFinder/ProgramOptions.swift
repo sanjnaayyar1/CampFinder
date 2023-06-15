@@ -14,8 +14,17 @@ struct ProgramOptions: View {
             VStack{
                 HStack {
                     Image("MagGlass")
-                        .frame(width: 30, height: 30)
+                        .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 100)
+                        Spacer()
                     Text("Find....")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        Spacer()
+                        .padding()
                         
                 }
                 

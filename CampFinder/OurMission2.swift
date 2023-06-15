@@ -62,7 +62,7 @@ struct OurMission2: View {
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
+        .background(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295, opacity: 0.788))
     }
     
     struct OurMission2_Previews: PreviewProvider {

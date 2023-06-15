@@ -11,28 +11,27 @@ struct AboutUs: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Text("About Us")
+                Text("ABOUT US")
                     .padding()
                     .foregroundColor(.white)
-                    .buttonStyle(.bordered)
-                    .font(.system(size:35))
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
+                    .buttonStyle(.borderedProminent)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.gray)
                     .padding()
-                Spacer()
                 
                 NavigationLink(destination: Mission()){Text("Our Mission")}
                     .padding()
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                     .buttonStyle(.bordered)
                     .font(.system(size:35))
                     .fontWeight(.bold)
-                    .foregroundColor(.black)
+                    .foregroundColor(.green)
                     .padding()
                 
                 NavigationLink(destination: OurMission2()){Text("Get to Know us")}
                     .padding()
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                     .buttonStyle(.bordered)
                     .font(.system(size:35))
                     .fontWeight(.bold)

@@ -18,7 +18,7 @@ struct Mission: View {
                 .padding()
             
             Text("CampFinder provides a platform that brings together computer science resources, mentorships, and educational opportunities specifically tailored for low-income communities.  With this app we aim to promote access and opportunities as well as create a supportive environment for individuals in underrepresented communities to explore and excel in computer science and engineering.")
-                .font(.system(size:45))
+                .font(.system(size:25))
                 .fontWeight(.bold)
                 .foregroundColor(Color(red: 0.9568627450980393, green: 0.9176470588235294, blue: 0.9019607843137255))
                 .multilineTextAlignment(.center)

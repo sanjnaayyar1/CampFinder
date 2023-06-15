@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct Mission: View {
-
+    
     var body: some View {
-        Text("Our Mission)
-        
-       
+        VStack{
+            Text("Our Mission")
+            
+            
         }
     }
-
+}
 
 struct Mission_Previews: PreviewProvider {
     static var previews: some View {

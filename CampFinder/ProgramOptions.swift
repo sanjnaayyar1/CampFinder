@@ -8,22 +8,42 @@
 import SwiftUI
 
 struct ProgramOptions: View {
-    
+
     var body: some View {
         NavigationStack{
             VStack{
-                Text("Find...")
+                HStack {
+                    Image("MagGlass")
+                        .frame(width: -1.0, height: 0.0)
+                    Text("Placeholder")
+                        
+                }
                 
                 NavigationLink(destination: Remote()){Text("Remote/Virtual Opportunities")}
                     .padding()
                     .foregroundColor(.black)
+                    .buttonStyle(.bordered)
+                    .font(.system(size:35))
+                    .fontWeight(.bold)
+                    .foregroundColor(.black)
+                    .padding()
                 
                 NavigationLink(destination: InPerson ()){Text("In-Person Opportunities")}
                     .padding()
                     .foregroundColor(.black)
+                    .buttonStyle(.bordered)
+                    .font(.system(size:35))
+                    .fontWeight(.bold)
+                    .foregroundColor(.black)
+                    .padding()
                 
                 
                 NavigationLink(destination: Resources()){Text("More Learning Resources")}
+                    .foregroundColor(.black)
+                    .padding()
+                    .buttonStyle(.bordered)
+                    .font(.system(size:35))
+                    .fontWeight(.bold)
                     .foregroundColor(.black)
                     .padding()
             }

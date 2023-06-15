@@ -11,6 +11,18 @@ struct AboutUs: View {
     var body: some View {
         VStack{
             Text("About Us")
+                .padding()
+                .foregroundColor(.white)
+                .buttonStyle(.bordered)
+                .font(.system(size:35))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
+            Spacer()
+
+            
+            
+            
         }
         .padding()
         .frame(maxWidth: .infinity , maxHeight: .infinity)

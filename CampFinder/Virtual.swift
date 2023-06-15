@@ -56,12 +56,12 @@ struct Virtual: View {
                 Button("Go to Girls Who Code"){
                     openURL(URL(string: "https://girlswhocode.com/programs/summer-immersion-program")!)
                 }
-                //Kode With Klossy
+//Kode With Klossy
                 
                 Button("Kode With Klossy"){
                     presentThirdAlert = true
                 }
-                .alert("Kode With Klossy is a coding program for young women that aims to empower them and provide them with the skills and confidence to pursue careers in technology.  Intended Group: Young Women/gender nonconforming and trans students ages 13-18.", isPresented: $presentThirdAlert, actions: {})
+                .alert("Kode With Klossy is a coding program for young women that aims to empower them and provide them with the skills and confidence to pursue careers in technology.  Intended Group: Young Women/gender nonconforming and trans students ages 13-18. KWK also offers select in-person camps depending on your location.", isPresented: $presentThirdAlert, actions: {})
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)

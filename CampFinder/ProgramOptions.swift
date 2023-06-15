@@ -14,8 +14,8 @@ struct ProgramOptions: View {
             VStack{
                 HStack {
                     Image("MagGlass")
-                        .frame(width: -1.0, height: 0.0)
-                    Text("Placeholder")
+                        .frame(width: 150 height: 150)
+                    Text("Find....")
                         
                 }
                 

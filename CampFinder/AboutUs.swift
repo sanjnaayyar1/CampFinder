@@ -17,7 +17,7 @@ struct AboutUs: View {
                     .buttonStyle(.borderedProminent)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                    .tint(.white)
                     .padding()
                 
                 NavigationLink(destination: Mission()){Text("Our Mission")}

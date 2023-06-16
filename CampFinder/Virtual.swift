@@ -24,6 +24,7 @@ struct Virtual: View {
                 .font(.largeTitle)
                 .fontWeight(.heavy)
                 .font(.system(size:35))
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             VStack(spacing:20){
                 
                 //Technovation Girls
@@ -36,9 +37,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Technovation Girls"){
+                Button("Visit Technovation Girls"){
                     openURL(URL(string:"https://technovationchallenge.org/")!)
                 }
                 .buttonStyle(.bordered)
@@ -57,9 +59,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(Color.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Girls Who Code"){
+                Button("Visit Girls Who Code"){
                     openURL(URL(string: "https://girlswhocode.com/programs/summer-immersion-program")!)
                 }
                 .buttonStyle(.bordered)
@@ -77,9 +80,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Kode With Klossy"){
+                Button("Visit Kode With Klossy"){
                     openURL(URL(string: "https://www.kodewithklossy.com/")!)
                 }
                 .buttonStyle(.bordered)
@@ -97,9 +101,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(Color.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Girls in Tech Virtual Summer Camp"){
+                Button("Visit Girls in Tech Virtual Summer Camp"){
                     openURL(URL(string: "https://girlsintech.org/membership/")!)
                 }
                 .buttonStyle(.bordered)
@@ -118,9 +123,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Black Girls CODE Virtual Code Camp"){
+                Button("Visit Black Girls CODE Virtual Code Camp"){
                     openURL(URL(string:"https://wearebgc.org/")!)
                 }
                 .buttonStyle(.bordered)
@@ -129,8 +135,8 @@ struct Virtual: View {
                 .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
             }
+           
             //New VStack
-            
             VStack {
                 
                 //Google Summer of Code
@@ -143,9 +149,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Google Summer of Code"){
+                Button("Visit Google Summer of Code"){
                     openURL(URL(string:"https://summerofcode.withgoogle.com/how-it-works")!)
                 }
                 .buttonStyle(.bordered)
@@ -164,9 +171,10 @@ struct Virtual: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
                 .padding()
                 
-                Button("Go to Stanford Pre-Collegiate Institutes"){
+                Button("Visit Stanford Pre-Collegiate Institutes"){
                     openURL(URL(string:"https://summerinstitutes.spcs.stanford.edu/#programdates")!)
                 }
                 .buttonStyle(.bordered)
@@ -176,9 +184,7 @@ struct Virtual: View {
                 .padding()
                 
             }
-            .padding()
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(red: 0.9568627450980393, green: 0.9176470588235294, blue: 0.9019607843137255, opacity: 0.788))
+            
         }
     }
     

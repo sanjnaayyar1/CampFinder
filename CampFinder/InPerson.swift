@@ -35,9 +35,13 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
+
                 .padding()
                 Text("Carnegie Mellon University, Philadelphia, Pennsylvania")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit Summer Academy for Math and Science"){
                     openURL(URL(string:"https://cmu.edu/pre-college/academic-programs/sams.html")!)
@@ -45,7 +49,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //MIT Womens Tech
@@ -60,9 +64,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
-                Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                Text("Massachusetts Institute of Technology,\n Cambridge, Massachusetts")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit MIT Women's Technology Program"){
                     openURL(URL(string:"https://summerofcode.withgoogle.com/how-it-works")!)
@@ -70,7 +77,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //Code Nation
@@ -83,9 +90,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
                 Text("Bay Area, Chicago, New York, and more")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit Code Nation"){
                     openURL(URL(string:"https://codenation.org/")!)
@@ -93,7 +103,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //Research Science Institute (RSI)
@@ -106,9 +116,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
-                Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                Text("Massachusetts Institute of Technology, \n Cambridge, Massachusetts")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit Research Science Institute"){
                     openURL(URL(string:"https://www.cee.org/programs/research-science-institute")!)
@@ -116,7 +129,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //MITES
@@ -129,9 +142,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
-                Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                Text("Massachusetts Institute of Technology, \n Cambridge, Massachusetts")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit MITES"){
                     openURL(URL(string:"https://mites.mit.edu/")!)
@@ -139,7 +155,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //Engineering Possibilities in College
@@ -152,9 +168,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
-                Text("California Polytechnic State University, College of Engineering,San Luis Obispo, California")
+                Text("California Polytechnic State University, College \n of Engineering, San Luis Obispo, California")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit EPIC"){
                     openURL(URL(string:"https://epic.calpoly.edu/")!)
@@ -162,7 +181,7 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
 //Simons Summer Research Program
@@ -175,9 +194,12 @@ struct InPerson: View {
                 .font(.system(size:35))
                 .fontWeight(.bold)
                 .foregroundColor(.black)
+                .tint(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295))
                 .padding()
                 Text("Stony Brook University, Stony Brook, New York")
+                    .font(.subheadline)
                     .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
                 
                 Button("Visit Simons Summer Research Program"){
                     openURL(URL(string:"https://summerinstitutes.spcs.stanford.edu/#programdates")!)
@@ -186,12 +208,12 @@ struct InPerson: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:20))
                 .fontWeight(.bold)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .padding()
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569, opacity: 0.788))
+            
 
         }
     }

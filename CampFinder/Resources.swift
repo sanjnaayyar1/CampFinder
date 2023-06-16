@@ -46,7 +46,7 @@ struct Resources: View {
                 .foregroundColor(.black)
                 .padding()
                 
-                Button("Go to Khan Academy") {
+                Button("Visit Khan Academy") {
                     openURL(URL(string: "https://www.khanacademy.org")!)
                     
                 }
@@ -75,7 +75,7 @@ struct Resources: View {
                 .padding()
                 
                 
-                Button("Go to Stack Overflow") {
+                Button("Visit Stack Overflow") {
                     openURL(URL(string: "https://www.stackoverflow.com")!)
                 }
                 .buttonStyle(.bordered)
@@ -84,8 +84,8 @@ struct Resources: View {
                 .foregroundColor(.white)
                 .padding()
                 
-                //MITAppInventor (re-check link!!!)
-                Button("MIT AppInventor") {
+    //MITAppInventor (re-check link!!!)
+                Button("MIT App Inventor") {
                     presentThirdAlert = true
                 }
                 .alert("MIT App Inventor is a free and user-friendly platform that empowers individuals, including beginners, to create their own mobile applications for Android devices. With its visual interface and block-based programming, it simplifies the app development process and enables users to bring their ideas to life without requiring extensive coding knowledge.",
@@ -97,11 +97,11 @@ struct Resources: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .padding()
                 
                 
-                Button("Go to MIT App Inventor") {
+                Button("Visit MIT App Inventor") {
                     openURL(URL(string: "https://www.appinventor.mit.edu")!)
                 }
                 .buttonStyle(.bordered)
@@ -126,7 +126,7 @@ struct Resources: View {
                 .padding()
                 
                 
-                Button("Go to edX") {
+                Button("Visit EdX") {
                     openURL(URL(string: "https://www.edx.org")!)
                 }
                 .buttonStyle(.bordered)
@@ -138,7 +138,7 @@ struct Resources: View {
                 Button("Code Academy") {
                     presentFifthAlert = true
                 }
-                .alert("Codecademy offers interactive coding courses for various programming languages, including Python, JavaScript, HTML/CSS, and more. They provide hands-on exercises, projects, and quizzes to help learners practice and reinforce their coding skills.",
+                .alert("Code Academy offers interactive coding courses for various programming languages, including Python, JavaScript, HTML/CSS, and more. They provide hands-on exercises, projects, and quizzes to help learners practice and reinforce their coding skills.",
                        isPresented: $presentFifthAlert, actions:
                         {
                     
@@ -147,10 +147,10 @@ struct Resources: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .padding()
                 
-                Button("Go to Code Academy") {
+                Button("Visit CodeAcademy") {
                     openURL(URL(string: "https://www.codeacademy.com")!)
                     
                 }
@@ -178,7 +178,7 @@ struct Resources: View {
                     .foregroundColor(.black)
                     .padding()
                     
-                    Button("Go to GitHub") {
+                    Button("Visit GitHub") {
                         openURL(URL(string: "https://www.github.com")!)
                         
                     }
@@ -200,10 +200,10 @@ struct Resources: View {
                     .buttonStyle(.bordered)
                     .font(.system(size:35))
                     .fontWeight(.bold)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .padding()
                     
-                    Button("Go to Replit") {
+                    Button("Visit Replit") {
                         openURL(URL(string: "https://www.replit.com")!)
                         
                     }
@@ -228,7 +228,7 @@ struct Resources: View {
                     .foregroundColor(.black)
                     .padding()
                     
-                    Button("Go to Reddit") {
+                    Button("Visit our Reddit") {
                         openURL(URL(string: "https://www.reddit.com/r/CampFinderForum/")!)
                         
                     }

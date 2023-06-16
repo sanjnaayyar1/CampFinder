@@ -37,10 +37,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Carnegie Mellon University, Philadelphia, Pennsylvania")
+                    .foregroundColor(.black)
                 
                 Button("Visit Summer Academy for Math and Science"){
                     openURL(URL(string:"https://cmu.edu/pre-college/academic-programs/sams.html")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //MIT Womens Tech
             
@@ -56,10 +62,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                    .foregroundColor(.black)
                 
                 Button("Visit MIT Women's Technology Program"){
                     openURL(URL(string:"https://summerofcode.withgoogle.com/how-it-works")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //Code Nation
             VStack {
@@ -73,10 +85,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Bay Area, Chicago, New York, and more")
+                    .foregroundColor(.black)
                 
                 Button("Visit Code Nation"){
                     openURL(URL(string:"https://codenation.org/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //Research Science Institute (RSI)
             VStack {
@@ -90,10 +108,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                    .foregroundColor(.black)
                 
                 Button("Visit Research Science Institute"){
                     openURL(URL(string:"https://www.cee.org/programs/research-science-institute")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //MITES
             VStack {
@@ -107,10 +131,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Massachusetts Institute of Technology, Cambridge, Massachusetts")
+                    .foregroundColor(.black)
                 
                 Button("Visit MITES"){
                     openURL(URL(string:"https://mites.mit.edu/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //Engineering Possibilities in College
             VStack {
@@ -124,10 +154,16 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("California Polytechnic State University, College of Engineering,San Luis Obispo, California")
+                    .foregroundColor(.black)
                 
                 Button("Visit EPIC"){
                     openURL(URL(string:"https://epic.calpoly.edu/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
 //Simons Summer Research Program
             VStack {
@@ -141,12 +177,21 @@ struct InPerson: View {
                 .foregroundColor(.black)
                 .padding()
                 Text("Stony Brook University, Stony Brook, New York")
+                    .foregroundColor(.black)
                 
                 Button("Visit Simons Summer Research Program"){
                     openURL(URL(string:"https://summerinstitutes.spcs.stanford.edu/#programdates")!)
   //end
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .padding()
             }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569, opacity: 0.788))
 
         }
     }

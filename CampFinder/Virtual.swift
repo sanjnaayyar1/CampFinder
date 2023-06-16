@@ -41,6 +41,12 @@ struct Virtual: View {
                 Button("Go to Technovation Girls"){
                     openURL(URL(string:"https://technovationchallenge.org/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
+                
                 //Girls Who Code
                 
                 Button("Girls Who Code"){
@@ -50,12 +56,17 @@ struct Virtual: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(Color.black)
                 .padding()
                 
                 Button("Go to Girls Who Code"){
                     openURL(URL(string: "https://girlswhocode.com/programs/summer-immersion-program")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
 //Kode With Klossy
                 
                 Button("Kode With Klossy"){
@@ -71,6 +82,11 @@ struct Virtual: View {
                 Button("Go to Kode With Klossy"){
                     openURL(URL(string: "https://www.kodewithklossy.com/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
                 //Girls in Tech Virtual Summer Camp
                 
                 Button("Girls in Tech Virtual Summer Camp"){
@@ -80,12 +96,17 @@ struct Virtual: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(Color.black)
                 .padding()
                 
                 Button("Go to Girls in Tech Virtual Summer Camp"){
                     openURL(URL(string: "https://girlsintech.org/membership/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
                 
                 //Black Girls CODE Virtual Code Camp
                 
@@ -102,6 +123,11 @@ struct Virtual: View {
                 Button("Go to Black Girls CODE Virtual Code Camp"){
                     openURL(URL(string:"https://wearebgc.org/")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
             }
             //New VStack
             
@@ -122,6 +148,11 @@ struct Virtual: View {
                 Button("Go to Google Summer of Code"){
                     openURL(URL(string:"https://summerofcode.withgoogle.com/how-it-works")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
                 
                 //Stanford Pre-Collegiate Institutes
                 
@@ -138,8 +169,16 @@ struct Virtual: View {
                 Button("Go to Stanford Pre-Collegiate Institutes"){
                     openURL(URL(string:"https://summerinstitutes.spcs.stanford.edu/#programdates")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.25882352941176473, green: 0.592156862745098, blue: 0.6274509803921569))
+                .padding()
                 
             }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(red: 0.9568627450980393, green: 0.9176470588235294, blue: 0.9019607843137255, opacity: 0.788))
         }
     }
     

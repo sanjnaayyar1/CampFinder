@@ -78,6 +78,11 @@ struct Resources: View {
                 Button("Go to Stack Overflow") {
                     openURL(URL(string: "https://www.stackoverflow.com")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
                 
                 //MITAppInventor (re-check link!!!)
                 Button("MIT AppInventor") {
@@ -92,13 +97,18 @@ struct Resources: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(.white)
                 .padding()
                 
                 
                 Button("Go to MIT App Inventor") {
                     openURL(URL(string: "https://www.appinventor.mit.edu")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
     //EdX
                 Button("edX") {
                     presentFourthAlert = true
@@ -119,6 +129,11 @@ struct Resources: View {
                 Button("Go to edX") {
                     openURL(URL(string: "https://www.edx.org")!)
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
     //CodeAcademy
                 Button("Code Academy") {
                     presentFifthAlert = true
@@ -132,13 +147,18 @@ struct Resources: View {
                 .buttonStyle(.bordered)
                 .font(.system(size:35))
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(.white)
                 .padding()
                 
                 Button("Go to Code Academy") {
                     openURL(URL(string: "https://www.codeacademy.com")!)
                     
                 }
+                .buttonStyle(.bordered)
+                .font(.system(size:20))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
             }
     //New VStack
                 VStack {
@@ -162,6 +182,11 @@ struct Resources: View {
                         openURL(URL(string: "https://www.github.com")!)
                         
                     }
+                    .buttonStyle(.bordered)
+                    .font(.system(size:20))
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding()
     //Replit
                     Button("Replit") {
                         presentSeventhAlert = true
@@ -175,13 +200,18 @@ struct Resources: View {
                     .buttonStyle(.bordered)
                     .font(.system(size:35))
                     .fontWeight(.bold)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                     .padding()
                     
                     Button("Go to Replit") {
                         openURL(URL(string: "https://www.replit.com")!)
                         
                     }
+                    .buttonStyle(.bordered)
+                    .font(.system(size:20))
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding()
 //Our Reddit
                     Button("Join our Subreddit!") {
                         presentEighthAlert = true
@@ -202,12 +232,17 @@ struct Resources: View {
                         openURL(URL(string: "https://www.reddit.com/r/CampFinderForum/")!)
                         
                     }
+                    .buttonStyle(.bordered)
+                    .font(.system(size:20))
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding()
                     
                 }
             }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(red: 0.8980392156862745, green: 0.4980392156862745, blue: 0.5176470588235295, opacity: 0.788))
+        .background(Color(red: 0.898, green: 0.4980392156862745, blue: 0.5176470588235295, opacity: 0.788))
         }
 
     }

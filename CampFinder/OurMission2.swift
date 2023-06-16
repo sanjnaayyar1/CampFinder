@@ -55,7 +55,7 @@ struct OurMission2: View {
             Button("Martha Contreras"){
                 presentThirdAlert = true
             }
-            .alert("Hi, my name is Martha Contreras and I am an upcoming senior in Hilmar High School.  I hope to obtain my masters in mechanical engineering and obtain a minor in computer science once I begin my college journey. ", isPresented: $presentThirdAlert, actions:{})
+            .alert("Hi, my name is Martha Contreras and I am an upcoming senior in Hilmar High School!  I hope to obtain my masters in mechanical engineering and obtain a minor in computer science once I begin my college journey. ", isPresented: $presentThirdAlert, actions:{})
             .foregroundColor(.black)
             .font(.title3)
             .fontWeight(.semibold)
